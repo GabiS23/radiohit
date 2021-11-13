@@ -46,7 +46,7 @@
             <a class="nav-link" aria-current="page" href="#" >Entrevistas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#" >Perro</a>
+            <a class="nav-link" aria-current="page" href="#" >Perro FELIZ</a>
           </li>
           <br>
         </ul>

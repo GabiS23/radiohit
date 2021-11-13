@@ -21,7 +21,7 @@
           <!-- <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#" >Servicios&nbsp;&nbsp;&nbsp;&nbsp;</a>
           </li> -->
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Servicios
             </a>
@@ -35,12 +35,15 @@
               <li><a class="dropdown-item" href="#" >Diseño y desarrollo web</a></li>
               <br>
             </ul>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#" >Programación</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#" >Sobre nosotros</a>
+            <a class="nav-link" aria-current="page" href="#" >Noticias</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#" >Nuestro equipo</a>
+            <a class="nav-link" aria-current="page" href="#" >Entrevistas</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#" >Contacto</a>

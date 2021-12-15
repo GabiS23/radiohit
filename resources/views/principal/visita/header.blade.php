@@ -1,57 +1,91 @@
+
+<div class="container">
+	<header class="header" id="logo">
+		<div class="container">
+			<div class="logo">
+				<div class="logo-item">
+					<div class="logo-icon"><img src="./visita/imagen_empresa/logos/logoRadioHit.png"  alt="" height=120 style="float:none;"></div>
+                    <h2 class="logo-title"><a href="" ><b>TU MÚSICA EN INGLÉS</b> </a></h2>
+					<div class="logo-description">
+						<p>Cochabamba Bolivia</p>
+					</div>
+                    
+				</div>
+			</div>
+			<nav class="menu">
+				<div class="btn-menu">
+					<label for="btn-menu">☰</label>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
+	<!--	--------------->
+	<input type="checkbox" id="btn-menu">
+	<div class="container-menu">
+		<div class="cont-menu">
+			<nav>
+				<img src="./visita/imagen_empresa/logos/logoRadioHit.png" alt="" height=70 style="padding: 15px 5px 0px 15px !important;">
+				<hr style="width:100%;">
+				
+				
+				<a href="{{route('inicio_index')}}">Inicio</a>
+				<a href="{{route('top20_index')}}">Top 20</a>
+				<a href="{{route('noticias_index')}}">Noticias</a>
+				<a href="{{route('entrevistas_index')}}">Entrevistas</a>
+				<a href="{{route('programacion_index')}}">Programación</a>
+				<a href="{{route('nosotros_index')}}">Sobre nosotros</a>
+				<a href="{{route('radiohit_index')}}">Anuncie en Radio Hit</a>
+				
+				
+			</nav>
+      		
+      		<div class="inline"  >
+			  <hr style="width:90%;">
+			  <br>
+              <a href="https://www.facebook.com/mentedigitalboliviaa/" target="_blank" class="icono-socia"><i target="_blank" class="icono-social fab fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com/mentedigitalbolivia/?hl=es" target="_blank" class="icono-socia"><i class="icono-social fab fa-instagram"></i></a>
+              <a href="https://www.tiktok.com/@mentedigitalbolivia/video/7010384718390676742?is_copy_url=1&is_from_webapp=v1" target="_blank" class="icono-socia"><i class="icono-social fab fa-tiktok"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=+59176985007" target="_blank" class="icono-socia"><i class="icono-social fab fa-whatsapp"></i></a>
+              <a href="mailto:mentedigitalbolivia@gmail.com" target="_blank" class="icono-socia"><i class="icono-social far fa-envelope"></i></a>
+          	</div>
+			<label for="btn-menu">x</label>
+		</div>
+	</div>
+</div>
+<footer class="footer-radio" style="z-index: 100 !important ;">
+	<div class="container" style="z-index: 100 !important ;">
+		<div class="row">
+			<div class="container_footer_radio">
+				<div class="col-md-5">
+					<div class="uno">
+						<div class="service-icon2"><i class="fa fa-play"></i>&nbsp;&nbsp;Radio en vivo</div>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="dos">
+						<figure>
+                        	<img src="./visita/imagen_empresa/varios/radio.png" alt="Smiley face" width="42" height="42" />
+							<figcaption>Publicita con nosotros</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+        </div>
+	</div>
+</footer>
 <style>
-  .bg-light {
-    background-color: #fff !important;
+    /* Invisible texto */
+figcaption {
+  display:none; 
+  transition: all .5s;
+  background-color:red;
+  color:#000;
+}
+/* Visible texto */
+figure:hover > figcaption {
+  display:block;
+  transition: all .5s;
 }
 </style>
-<!-- Navigation -->
-<div class="fixed" style="position:fixed;width: 100%;z-index:100;">
-  <nav class="navbar navbar-expand-lg navbar-light static-top bg-light" style="box-shadow: 2px 2px 5px #999;">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="./visita/imagen_empresa/logos/logoradiohit.jpg" alt="..." height="100">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#" >Inicio</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#" >Servicios&nbsp;&nbsp;&nbsp;&nbsp;</a>
-          </li> -->
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Servicios
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#" >Branding estratégico</a></li>
-              <li><a class="dropdown-item" href="#" >Creación y diseño de contenido gráfico</a></li>
-              <li><a class="dropdown-item" href="#" >Social media marketing</a></li>
-              <li><a class="dropdown-item" href="#" >Tik tok comercial</a></li>
-              <li><a class="dropdown-item" href="#" >Producción fotográfica comercial</a></li>
-              <li><a class="dropdown-item" href="#" >Producción audiovisual publicitario</a></li>
-              <li><a class="dropdown-item" href="#" >Diseño y desarrollo web</a></li>
-              <br>
-            </ul>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#" >Programación</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#" >Noticias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#" >Entrevistas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#" >Perro FELIZ</a>
-          </li>
-          <br>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
-<br><br><br>
+<!---->

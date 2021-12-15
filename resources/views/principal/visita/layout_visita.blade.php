@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Representacion y venta de instrumentos musicales y audio pro en Bolivia">
+    <meta name="description" content="Radio hit cochabamba, tu música en inglés">
     <meta name="keywords"
     content="Radio hit cochabamba, Publicidad radial, Radios de bolivia, Radios de cochabamba, Radio hit">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -18,6 +18,8 @@
     <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
     <!-- style local global -->
     <link href="visita/css/style-global.css" rel="stylesheet">
+    <link href="visita/css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="./visita/fonts/EastmanTrial-Bold.otf">
 <body>
     @include('principal.visita.header')
     <div>

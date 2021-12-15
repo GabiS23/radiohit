@@ -1,0 +1,150 @@
+.footer{
+    background-color: #fff;
+  }
+  .logo-footer{
+    width: 100%;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 30px;
+  }
+  
+  .box_footer {
+    display: flex;
+    /*para que los elementos se pongan uno ensima de otro*/
+    flex-direction: column;
+    padding: 10px 20px 20px 20px;
+    
+  }
+  .box_footer p{
+    color: #000;
+  }
+  .titulo-footer{
+    font-size: 16px !important;
+    color: #000;
+  }
+  .subtitulo-footer{
+    font-weight: 700;
+  }
+  .box_footer a {
+    margin-bottom: 3px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline;
+  }
+  .box_footer a:hover {
+    color: #d12525;
+  }
+  .img-redsocial{
+    margin: 2px;
+  }
+  .box-footer a i.fab {
+    display: inline-block;
+    box-shadow: 0px 0px 2px #fff;
+  }
+  .footer2{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  @media only screen and (max-width: 550px) {
+    .footer2{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .resumen-servicio{
+      padding: 12px;
+    }
+
+  }
+
+
+
+  /* footer radio en vivo */
+  .footer-radio {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    color: #000;
+    border-top: 2px solid rgb(243, 243, 243);
+  }
+  .btn-wsp i{
+    width:60px;
+    height:60px;
+    line-height: 60px;
+    bottom:30px;
+    right:25px;
+    background:#C00D0D;
+    color:#fff;
+    border-radius:50px;
+    text-align:center;
+    font-size:45px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    transition: all 300ms ease;
+  }
+  .btn-wsp:hover i{
+    background: #C00D0D;
+    color: #e0e0e0;
+    
+  }
+  @media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+      }
+  }
+  .btn-publicitario{
+      background-color: #C00D0D;
+      color:#fff;
+      padding: 5px 15px 5px 15px;
+      border-radius: 50px;
+      border: none;
+      text-decoration: none;
+      width: 190px;
+      margin-top: -14px;
+  }
+  .container_footer_radio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: auto;
+  }
+  .service-icon2 i {
+      background-color: #000;
+      color:#fff;
+      padding: 13px;
+      border:5px solid #fff;
+      font-size: 15px;
+      border-radius: 50px;
+    }
+  .service-icon2{
+      font-weight: 800;
+  }
+  .service-title2{
+      margin-left: 90px;
+      font-weight: 800;
+      margin-bottom: 0px;
+      text-decoration: bold;
+      color: #000 !important;
+      padding-top:0px;
+      font-size: 17px !important;
+  }
+  .uno{
+      padding-top:25px;
+      text-align:left;
+      display: table-cell;
+        vertical-align: middle;
+  }
+  .dos{
+      text-align:right;
+      text-align: right;
+      margin-top: 20px;
+  }
+  .publicita-whatsapp{
+      display: table-cell;
+        vertical-align: middle;
+  }
+  
+  
